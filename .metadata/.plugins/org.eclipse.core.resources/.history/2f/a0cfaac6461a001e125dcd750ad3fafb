@@ -1,0 +1,39 @@
+package pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class LoginPage {
+	
+	WebDriver driver;
+	
+	
+	By txt_username = By.id("name");
+	By txt_pass = By.id("password");
+	By txt_login = By.id("login");
+	
+	
+	public void enterName(String username) {
+		driver.findElement(txt_username).sendKeys("Mohan Singh Rajput");
+		
+	}
+	
+	public void enterPasword(String password) {
+		driver.findElement(txt_pass).sendKeys("12345");
+		
+	}
+	
+	public void clickLogin() {
+		driver.findElement(txt_login).click();
+		
+	}
+	
+	public void loginValidUser(String username, String password) {
+		driver.findElement(txt_username).sendKeys("Mohan Singh Rajput");
+		driver.findElement(txt_pass).sendKeys("12345");
+		driver.findElement(txt_login).click();
+
+	}
+	
+	
+}

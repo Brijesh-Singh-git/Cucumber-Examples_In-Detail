@@ -1,0 +1,26 @@
+Feature: To test the demo tags
+
+
+@smoke
+Scenario: Sample 1 
+Given 
+And	
+When 
+
+
+@regression
+Scenario: Check the search result page 
+Given Browser is opened 
+And	user clicks on the hindi language
+When user clicks again on English language
+Then  clicks on the i'm feeling lucky 
+
+@Smoke @regression
+Scenario: Check the search result page 
+Given Browser is opened 
+And	user clicks on the hindi language
+When user clicks again on English language
+Then  clicks on the i'm feeling lucky 
+
+#@smoke or @regression ----> It will run all the test cases 
+#@smoke and @regression ----> It will run only thr test case which have tag @smoke @regression

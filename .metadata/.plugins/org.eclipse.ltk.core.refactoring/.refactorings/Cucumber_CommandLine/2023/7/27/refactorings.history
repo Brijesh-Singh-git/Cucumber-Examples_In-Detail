@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Cucumber_CommandLine/src/test/resources/Features/Login.feature&apos; to &apos;Login_CommandLine.feature&apos;" description="Rename resource &apos;Login.feature&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/test/resources/Features/Login.feature" name="Login_CommandLine.feature" stamp="1688525240730" updateReferences="true"/>
+</session>

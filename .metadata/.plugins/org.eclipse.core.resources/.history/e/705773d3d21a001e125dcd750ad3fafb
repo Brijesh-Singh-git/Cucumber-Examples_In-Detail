@@ -1,0 +1,25 @@
+Feature: To test the demo tags
+
+
+@smoke
+Scenario: Sample 1 
+Given 	
+When 
+And
+
+
+@regression
+Scenario: Sample 1 
+Given 	
+When 
+And
+
+@smoke @regression
+Scenario: Sample 1 
+Given 	
+When 
+And
+
+
+#@smoke or @regression ----> It will run all the test cases 
+#@smoke and @regression ----> It will run only thr test case which have tag @smoke @regression

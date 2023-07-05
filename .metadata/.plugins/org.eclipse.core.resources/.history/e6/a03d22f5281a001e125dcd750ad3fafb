@@ -1,0 +1,35 @@
+package Step_Definations;
+
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class GoogleSearch_Steps {
+	
+	
+	@Given("browser is opened")
+	public void browser_is_opened() {
+	    
+	}
+
+	@And("user is on the google page")
+	public void user_is_on_the_google_page() {
+	    
+	}
+
+	@When("user enters the text on search box")
+	public void user_enters_the_text_on_search_box() {
+	   
+	}
+
+	@And("hits enter")
+	public void hits_enter() {
+	    
+	}
+
+	@Then("naviagted to the result page")
+	public void naviagted_to_the_result_page() {
+	    
+	}
+}

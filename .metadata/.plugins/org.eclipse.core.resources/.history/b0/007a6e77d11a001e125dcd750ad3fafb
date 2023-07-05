@@ -1,0 +1,10 @@
+Feature: To test the demo tags
+
+
+@Smoke
+Scenario: Check the search result page 
+Given Browser is opened 
+And	user clicks on the hindi language
+When user clicks again on English language
+Then  clicks on the i'm feeling lucky
+
